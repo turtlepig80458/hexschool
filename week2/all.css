@@ -1,0 +1,217 @@
+body{
+    font-family: 'Bruno Ace SC', cursive;
+}
+/* 移除行內元素下方會有的空隙 */
+img{
+    vertical-align: middle;
+}
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+p{
+    color: #15161d;
+}
+
+.container{
+    max-width: 1296px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.row_start{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.row_center{
+    display: flex;
+    justify-content: center;
+}
+
+/* /////////////////////nav //////////////////////////////// */
+nav{
+    background-color: #000;
+}
+.mtb{
+    padding: 40px 0 24px 0;
+}
+.text-nav{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #d1d1d1;
+}
+
+/* Banner  */
+.banner1{
+    background: #000;
+}
+.people-1{
+    max-width: 636px;
+}
+h2{
+    font-size: 64px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #fff;
+}
+h1{
+    font-size: 128px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #00ffa3;
+    text-align: right;
+}
+.bt{
+    display: flex;
+    justify-content: flex-end;
+}
+.bg_white{
+    background-color: #fff;
+}
+.bg_black{
+    background-color: black;
+}
+.button{
+    padding: 12px 24px;
+    border-radius: 32px;
+}
+.text-button{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    display: inline;
+    padding-right: 4px;
+}
+.button_white{
+    color: #000;
+    background-color: #fff;
+}
+.button_black{
+    color: #fff;
+    background-color: #000;
+}
+.icon-1{
+    min-width: 24px;
+}
+/* //////////////banner2//////////////////////////// */
+.banner2{
+    /* width: 100%; */
+    max-height: 920px;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true) ;
+}
+.ptb-160{
+    padding: 160px 0;
+}
+h3{
+    font-size: 64px;
+    line-height: 1.5;
+    font-weight: 400;
+    padding-bottom: 36px;
+}
+.text_m{
+font-size: 24px;
+line-height: 1.5;
+font-weight: 400;
+margin-bottom: 32px;
+}
+.text-white{
+    color: #fff;
+}
+.mr-32{
+    margin-right: 32px;
+}
+.pic1 , .pic2{
+    width: 196px;
+    margin-left: 24px;
+}
+.pic3{
+    width: 306px;
+    margin-left: 24px;
+}
+
+/*//////////////// section1 /////////// */
+.itemcenter{
+    align-items: center;
+}
+.row_wrap{
+    width: 664px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 99px 0;
+}
+.grid{
+    width: 274px;
+    margin:0  24px 24px 0;
+    padding: 16px;
+    border: 1px solid #E3E3E3;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+}
+.text_s{
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.text_xs{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.about{
+    width: 526px;
+}
+/*/////////// section2////////////////// */
+.bg_blue{
+    background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+.ptb-96{
+    padding: 96px 0;
+}
+.w100{
+    max-width: 100px;
+}
+.icon{
+    max-width: 162px;
+    margin-left: 20px;
+}
+/* /////////////////////section3////////////// */
+.pic4{
+    max-width: 416px;
+}
+.pic5{
+    max-width: 196px;
+}
+.pic6{
+    max-width: 306px;
+}
+.pic7{
+    max-width: 526px;
+}
+.w-856{
+    width: 856px;
+}
+.w-636{
+    max-width: 636px;
+}
+.mb-76{
+    margin-bottom: 76px;
+}
+.pr-24{
+    padding-right: 24px;
+}
+.pb-28{
+    padding-bottom: 28px;
+}
+.bt_2{
+    display: flex;
+}
+/* footer///////////////// */
+.ptb-40{
+    padding: 40px 0;
+}
