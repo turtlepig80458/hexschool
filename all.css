@@ -32,6 +32,11 @@ p{
     display: flex;
     justify-content: center;
 }
+.column_between{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 /* /////////////////////nav //////////////////////////////// */
 nav{
@@ -48,11 +53,15 @@ nav{
 }
 
 /* Banner  */
-.banner1{
-    background: #000;
-}
+
 .people-1{
     max-width: 636px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 h2{
     font-size: 64px;
@@ -67,7 +76,7 @@ h1{
     color: #00ffa3;
     text-align: right;
 }
-.bt{
+.jc_end{
     display: flex;
     justify-content: flex-end;
 }
@@ -77,6 +86,7 @@ h1{
 .bg_black{
     background-color: black;
 }
+
 .button{
     padding: 12px 24px;
     border-radius: 32px;
@@ -100,7 +110,7 @@ h1{
     min-width: 24px;
 }
 /* //////////////banner2//////////////////////////// */
-.banner2{
+.bg_pic_dark{
     /* width: 100%; */
     max-height: 920px;
     background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true) ;
@@ -123,6 +133,9 @@ margin-bottom: 32px;
 .text-white{
     color: #fff;
 }
+.text-black{
+    color: #000;
+}
 .mr-32{
     margin-right: 32px;
 }
@@ -136,7 +149,7 @@ margin-bottom: 32px;
 }
 
 /*//////////////// section1 /////////// */
-.itemcenter{
+.text_center{
     align-items: center;
 }
 .row_wrap{
@@ -180,6 +193,11 @@ margin-bottom: 32px;
     max-width: 162px;
     margin-left: 20px;
 }
+.icon:hover{
+    border-radius: 40px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.90), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
 /* /////////////////////section3////////////// */
 .pic4{
     max-width: 416px;
@@ -199,9 +217,7 @@ margin-bottom: 32px;
 .w-636{
     max-width: 636px;
 }
-.mb-76{
-    margin-bottom: 76px;
-}
+
 .pr-24{
     padding-right: 24px;
 }
